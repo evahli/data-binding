@@ -13,7 +13,7 @@ export const Ukol2 = () => {
     <>
       <label>
         Login:
-        <input type="text" />
+        <input value={login} type="text" onChange={(event) => setLogin(event.target.value)} />
       </label>
     </>
   );
